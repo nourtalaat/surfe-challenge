@@ -1,0 +1,12 @@
+.state {
+  height: calc(100vh - 64px * 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h2 {
+    color: #119bf2;
+    margin-bottom: 120px;
+  }
+}

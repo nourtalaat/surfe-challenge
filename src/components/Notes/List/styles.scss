@@ -1,0 +1,11 @@
+.notes-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+
+  button {
+    position: fixed;
+    right: 64px;
+    bottom: 64px;
+  }
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e7f2fe;
+  padding: 64px;
+  box-sizing: border-box;
+  min-width: 448px;
+  min-height: 488px;
+}
+
+
+button {
+  background-color: #119bf2;
+  color: white;
+  padding: 4px 32px;
+  border-radius: 8px;
+}
