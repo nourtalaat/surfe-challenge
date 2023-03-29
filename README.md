@@ -10,7 +10,7 @@ In the project directory, run the following command in a terminal to install the
 yarn
 ```
 
-Then, to run the app locally, run the following command, it will be avaible at URL [http://localhost:3000](http://localhost:3000):
+Then, to run the app locally, run the following command, it will be available at URL [http://localhost:3000](http://localhost:3000):
 
 ```bash
 yarn start
