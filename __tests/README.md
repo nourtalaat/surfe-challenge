@@ -6,9 +6,6 @@ Given the sample notes app we need to perform 3 exercises as shown in the [task 
 
 ### Exercise #1
 Below is a list of test cases for **note editing**:
-- Prerequisites:
-  - A new note should be empty
-  - A new note should be linked to the current user's session
 - Saving:
   - Writing text in the editor should save the note's content remotely automatically
   - Accessing the same note from anywhere should retrieve the same content
