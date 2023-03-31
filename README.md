@@ -16,6 +16,12 @@ Then, to run the app locally, run the following command, it will be available at
 yarn start
 ```
 
+To run the tests use the following command:
+
+```bash
+yarn test
+```
+
 ## How to use the app
 
 Navigate to http://localhost:3000/SESSION in a browser where SESSION can be any string you want. This string represents a persistent work “session” for a user. You can therefore switch between users by changing the SESSION string.
@@ -28,3 +34,6 @@ In the editor, you can:
 - Delete the note by clicking on the "Delete" button on the top right corner
 
 To return back to the note list, click on the "Back" button on the top right corner.
+
+## Challenge README
+Please find the README details for the Surfe challenge inside the `./__tests__` directory.
