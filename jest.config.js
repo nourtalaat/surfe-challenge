@@ -1,10 +1,11 @@
 module.exports = {
-  roots: ["<rootDir>/src"],
+  roots: ["<rootDir>/src", "<rootDir>/__tests__"],
   preset: "ts-jest",
-  testEnvironment: "jsdom",
   transform: {
     "^.+\\.ts?$": "ts-jest",
     "^.+\\.tsx?$": "ts-jest",
   },
   transformIgnorePatterns: ["<rootDir>/node_modules/"],
+  testMatch: ['**/*.spec.ts?(x)'],
+  testTimeout: 15000,
 };
