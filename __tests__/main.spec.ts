@@ -227,10 +227,6 @@ describe('Note Editing', () => {
       await page.keyboard.type(searchCharacter)
       await new Promise((resolve) => setTimeout(resolve, 1000))
       const usernameNodes = await page.$$('#dropdownLeftStart > ul > li')
-      for (const node of usernameNodes) {
-        await node.evaluate((e) => e.textContent)
-      }
-      await new Promise((resolve) => setTimeout(resolve, 1000))
       expect(usernameNodes).toBeDefined()
       expect(usernameNodes.length).toStrictEqual(5)
       for (const node of usernameNodes) {
