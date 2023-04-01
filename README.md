@@ -36,4 +36,4 @@ In the editor, you can:
 To return back to the note list, click on the "Back" button on the top right corner.
 
 ## Challenge README
-Please find the README details for the Surfe challenge inside the `./__tests__` directory.
+Please find the [README](https://github.com/nourtalaat/surfe-challenge/blob/main/__tests__/README.md) for the Surfe challenge inside the `./__tests__` directory.
