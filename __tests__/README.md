@@ -28,11 +28,16 @@ Below is a list of test cases for **note editing**:
   - Choosing from the dropdown menu or dragging/dropping a username from the most mentioned list should add the user's username in the following format: `@username`, besides this we should follow the exact specifications for spacing as detailed in other test cases
 
 ### Exercise #2
-The list of issues has been created in [GitHub Issues](https://github.com/nourtalaat/surfe-challenge/issues)
+The list of issues has been created in [GitHub Issues](https://github.com/nourtalaat/surfe-challenge/issues).
 
 ### Exercise #3
-The test cases in #1 have been implemented using Puppeteer, to get started you need:
+The test cases in #1 have been implemented using **Puppeteer**, to get started you need:
+
 0. Make sure you're in the app's root directory
 1. Install the dependencies with: `yarn`
 2. Have the app running with: `yarn start`
-3. Run the tests with `yarn test`
+3. In a separate terminal, run the tests with `yarn test`
+
+Notes:
+- Some of the tests are intentionally failing because they don't meet the criteria specified in Exercise #1, and as such I thought they could be used as a measure of correctness when resolving the related issues, just like in red-green TDD cycles 
+- I've decided to go with **Puppeteer** because I wanted to showcase my ability to ramp up with a tool I'm entirely unfamiliar with
